@@ -26,7 +26,5 @@ array.each do |elements|
   # puts "#{elements[0]} and #{elements[1]} and #{elements[2]}"
 end
 # p "------------"
-# p "Final Result is:"
-# p weather_numbers
 
 p "Day #{weather_numbers[0]} has the smallest temperature spread of #{weather_numbers[1].to_i - weather_numbers[2].to_i} degrees Fahrenheit."
